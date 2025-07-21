@@ -2,3 +2,11 @@ openai==1.97.0
 pydub==0.24.0
 opuslib_next==1.1.2
 edge_tts==7.0.2
+audioop-lts
+
+pydub
+#可以从任意格式的音频（mp3/wav）读取到原始数据，底层依赖ffmpeg（不完全依赖）
+opuslib_next
+#实现opus编解码，底层依赖libopus
+numpy
+#科学计算库，这这里主要操作数组
