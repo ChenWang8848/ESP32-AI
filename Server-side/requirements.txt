@@ -1,0 +1,4 @@
+openai==1.97.0
+pydub==0.24.0
+opuslib_next==1.1.2
+edge_tts==7.0.2
