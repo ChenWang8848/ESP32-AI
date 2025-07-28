@@ -1,0 +1,2 @@
+source E:/desktop/ESP32-AI/ai-esp32c3/ai-esp32c3/build/bootloader/gdbinit/symbols
+source E:/desktop/ESP32-AI/ai-esp32c3/ai-esp32c3/build/bootloader/gdbinit/connect

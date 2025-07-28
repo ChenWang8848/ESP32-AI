@@ -1,11 +1,6 @@
 from openai import OpenAI
 class ChatGLM:
-    def __init__(self):
-        config = {
-            'api_key': '195ba50bf759449ba06bd74f3504328c.18kMj4By40mTgPA8',
-            'model_name': 'GLM-4-Flash',
-            'url': 'https://open.bigmodel.cn/api/paas/v4/'
-        }
+    def __init__(self,config):
         self.api_key = config.get('api_key')
         self.model_name = config.get('model_name')
         self.url = config.get('url')

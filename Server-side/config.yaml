@@ -1,0 +1,18 @@
+
+
+TTS:
+  EdgeTTS:
+      type: "EdgeTTS"
+      voice: 'zh-CN-XiaoxiaoNeural'
+
+LLM:
+  ChatGLM:
+      api_key: '195ba50bf759449ba06bd74f3504328c.18kMj4By40mTgPA8'
+      model_name: 'GLM-4-Flash'
+      url: 'https://open.bigmodel.cn/api/paas/v4/'
+
+ASR:
+  FunASR:
+      output_dir: 'Server-side/ai_core/asr/funasr/temp'
+
+
